@@ -4,6 +4,10 @@
 
 To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IHM&MSEC2025](https://www.ihmmsec.org/cms/home/index.html) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue. The most promising solutions will be eligible for research grants to further advance their development. 
 
+Sign up to receive updates [here]().
+
+For info please contact: safe-challenge@domain.com
+
 ## Import Dates
 
 - Competition Opens: February 24, 2025
@@ -29,13 +33,14 @@ The competition will consist of three detection task. For each task, the object 
 - Task 2: Detection on Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates.
 - Task 3: Bonus Task (Details TBD)
 
-## Submission
+## Model Submission
 
 This is a code based competetion. No data is released. 
 
+** Details on the submission process and the sample model submission will be posted soon. **
+
 - Participants will be required to submit their model to be evaluated on the dataset.
-- The model will be expected to read in the dataset and output a **detection score and binary decision** for every input file.
-- Details on the submission process and the sample model submission will be posted soon.
+- The model will be expected to read in the dataset and output file containing a **detection score and binary decision** for every input example.
 - Common python ML frameworks like pytorch, onnx, etc will be supported.
 
 ## Evaluation
