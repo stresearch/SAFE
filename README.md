@@ -47,6 +47,6 @@ This is a code based competetion. No data is released.
 
 All submissions will be evalulated using balanced accuracy. Balanced accuracy is defined as an average of true positive rate and true negative rate. 
 
-- After the competion closes, we'll provide additiona metrics broken down by source and other data attributes.
+- After the competion closes, we'll provide additional metrics broken down by source and other data attributes.
 - This is why we ask you to provide a continous decision score for every input example in addition to a hard binary decision.
 
