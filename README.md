@@ -37,7 +37,7 @@ The competition will consist of three detection task. For each task, the object 
 
 This is a code based competetion. No data is released. 
 
-** Details on the submission process and the sample model submission will be posted soon. **
+**Details on the submission process and the sample model submission will be posted soon.**
 
 - Participants will be required to submit their model to be evaluated on the dataset.
 - The model will be expected to read in the dataset and output file containing a **detection score and binary decision** for every input example.
