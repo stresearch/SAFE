@@ -8,7 +8,7 @@ Sign up to receive updates [here]().
 
 For info please contact: safe-challenge@domain.com
 
-## Import Dates
+## Important Dates
 
 - Competition Opens: February 24, 2025
 - Round 1 Submission deadline: May 05, 2025 (the papers accepted in Round 1 will be published in the proceedings)
