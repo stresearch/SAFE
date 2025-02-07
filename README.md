@@ -47,7 +47,9 @@ This is a code based competetion. No data will be released before the competitio
 
 All submissions will be evalulated using balanced accuracy. Balanced accuracy is defined as an average of true positive rate and true negative rate. 
 
-The competition page will maintain a public leaderboard and a private leaderboard. The data will be devided along the sources such the public and private leaderboards will be non-overlapping. Public leaderboard will also show error rates for every source, However, the specific source name will be anonymized. See the following table as an example.
+The competition page will maintain a public leaderboard and a private leaderboard. The data will be devided along the sources such that public and private leaderboards will be non-overlapping. Public leaderboard will also show error rates for every source, However, the specific source name will be anonymized. See the following table as an example.
+
+<img width="1572" alt="image" src="https://github.com/user-attachments/assets/ec4339ef-589b-4f76-ae2f-a03a6ed6d7d3" />
 
 - After the competition closes, we will provide additional metrics broken down by source and other data attributes.
 - This is why we ask you to provide a continous decision score for every input example in addition to a hard binary decision.
