@@ -10,7 +10,7 @@ For info please contact: safe-challenge@domain.com
 
 ## Important Dates
 
-- Competition Opens: February 24, 2025
+- Competition Opens: March 3, 2025
 - Round 1 Submission deadline: May 05, 2025 (the papers accepted in Round 1 will be published in the proceedings for IH&MMSEC 2025)
 - Round 2 Submission deadline: June 02, 2025 (competition will close after Round 2)
 
