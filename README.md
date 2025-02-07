@@ -35,7 +35,7 @@ The competition will consist of three detection tasks. For each task, the object
 
 ## Model Submission
 
-This is a code based competetion. No data will be released. 
+This is a code based competetion. No data will be released before the competition. A subset of the data may be released after the competition. 
 
 **Details on the submission process and the sample model submission will be posted soon.**
 
@@ -47,6 +47,8 @@ This is a code based competetion. No data will be released.
 
 All submissions will be evalulated using balanced accuracy. Balanced accuracy is defined as an average of true positive rate and true negative rate. 
 
-- After the competion closes, we will provide additional metrics broken down by source and other data attributes.
+The competition page will maintain a public leaderboard and a private leaderboard. The data will be devided along the sources such the public and private leaderboards will be non-overlapping. Public leaderboard will also show error rates for every source, However, the specific source name will be anonymized. See the following table as an example.
+
+- After the competition closes, we will provide additional metrics broken down by source and other data attributes.
 - This is why we ask you to provide a continous decision score for every input example in addition to a hard binary decision.
 
