@@ -1,5 +1,7 @@
 # [WIP] SAFE: Synthetic Audio Forensics Evaluation Challenge 
 
+![](logo.png)
+
 ## Overview
 
 To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IHM&MSEC2025](https://www.ihmmsec.org/cms/home/index.html) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue. The most promising solutions will be eligible for research grants to further advance their development. 
