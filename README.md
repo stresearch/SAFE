@@ -43,7 +43,7 @@ This is a code based competetion. No data will be released before the competitio
 
 - Participants will be required to submit their model to be evaluated on the dataset.
 - The model will be expected to read in the dataset and output file containing a **detection score and binary decision** for every input example.
-- Common python ML frameworks like pytorch, onnx, etc will be supported.
+- Common python ML frameworks like pytorch will be supported.
 
 ## Evaluation
 
