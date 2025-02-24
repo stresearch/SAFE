@@ -56,3 +56,24 @@ The competition page will maintain a public leaderboard and a private leaderboar
 - After the competition closes, we will provide additional metrics broken down by source and other data attributes.
 - This is why we ask you to provide a continous decision score for every input example in addition to a hard binary decision.
 
+## Evaluation Rules
+
+To ensure a fair and rigorous evaluation process for the SAFE: Synthetic Audio Forensics Evaluation Challenge (SAFE), the following rules must be adhered to by all participants:
+
+1. **Leaderboard**:
+   - The competition will maintain both a public and a private leaderboard.
+   - The public leaderboard will show error rates for each anonymized source.
+   - The private leaderboard will be used for the final evaluation and will include non-overlapping data from the public leaderboard.
+
+2. **Submission Limits**:
+   - Participants will be limited to a certain number of submissions per day.
+
+3. **Confidentiality**:
+   - Participants agree not to publicly compare their results with those of other participants until the other participant’s results are published outside of the IHM&MSEC2025 venue.
+   - Participants are free to use and publish their own results independently.
+
+4. **Compliance**:
+   - Participants must comply with all rules and guidelines provided by the organizers.
+   - Failure to comply with the rules may result in disqualification from the competition and exclusion from future evaluations.
+
+By participating in the SAFE challenge, you agree to adhere to these evaluation rules and contribute to the collaborative effort to advance the field of audio forensics.
