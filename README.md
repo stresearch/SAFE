@@ -7,6 +7,9 @@
 - [📝 Tasks](#-tasks)
 - [📈 Data](#-data)
 - [🤖 Model Submission](#-model-submission)
+  - [📂 Create Model Repo](#-create-model-repo)
+  - [🔘 Submit](#-submit)
+  - [🆘 Helpful Stuff](#-helpful-stuff)
 - [🔍 Evaluation](#-evaluation)
 - [⚖️ Rules](#️-rules)
 
@@ -52,7 +55,8 @@ The dataset will consist of human and machine generated speech audio tracks.
 
 This is a code based competetion. No data will be released before the competition. A subset of the data may be released after the competition. We will be using [hugginface competions platform](https://github.com/huggingface/competitions).
 
-- Participants will be required to submit their model to be evaluated on the dataset by creating a [huggingface](https://huggingface.co) model repository  (it can be private or public).
+### 📂 Create Model Repo  
+Participants will be required to submit their model to be evaluated on the dataset by creating a [huggingface](https://huggingface.co) model repository  (it can be private or public).
 - The model will be expected to read in the dataset and output file containing a **detection score and binary decision** for every input example.
 - The dataset will be downloaded to `/tmp/data` inside the container during evalation run.
 - The only requirement is to have a `script.py` in the top level of the repo that saves a `submission.csv` file with the following columns:
@@ -66,12 +70,17 @@ This is a code based competetion. No data will be released before the competitio
   - Requirements File: [requirements.txt](requirements.txt)
   - If you'd like to add another package to the requirments file create an issue here: https://github.com/stresearch/SAFE
   - **During evalation, container will not have access to the internet**. Participants should include all other required dependencies in the model repo.
-- Once your model is ready    
+
+### 🔘 Submit  
+Once your model is ready, it's time to submit:   
   - Go the task submision space (there is a seperate space for every task)
   - Login with your Huggingface Credentials
   - Enter the name of your model e.g. `safe-challenge/safe-example-submission` and click submit! 🎉
+  - Please use the same user name for all your submissions from the same team.
 
-**🆘 Helpful Stuff**. We provide an example model submission repo and a practice competition for troubleshooting.  
+### 🆘 Helpful Stuff
+
+We provide an example model submission repo and a practice competition for troubleshooting.  
 - Take a look at an example model repo: https://huggingface.co/safe-challenge/safe-example-submission
 - We encourage you to submit to a practice competion: https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
 - It's using this pracice dataset: https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset
