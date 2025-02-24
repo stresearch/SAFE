@@ -1,6 +1,15 @@
-# SAFE: Synthetic Audio Forensics Evaluation Challenge 
+# SAFE: Synthetic Audio Forensics Evaluation Challenge <!-- omit from toc -->
 
 ![](logo.png)
+
+- [Overview](#overview)
+- [Important Dates](#important-dates)
+- [Tasks](#tasks)
+- [Data](#data)
+- [Model Submission](#model-submission)
+- [Evaluation](#evaluation)
+- [Rules](#rules)
+
 
 ## Overview
 
