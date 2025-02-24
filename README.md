@@ -8,8 +8,8 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 
 **All participants are required to register for the competition**
 
-- Sign up here to participate and receive updates: [TBD]().
-- For info please contact: TBD
+- Sign up here to participate and receive updates: [NEED TO ADD GOOGLE FORMS LINK]().
+- For info please contact: OUR GOOGLE EMAIL
 
 ## Important Dates
 
