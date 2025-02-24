@@ -1,4 +1,4 @@
-# [WIP] SAFE: Synthetic Audio Forensics Evaluation Challenge 
+# SAFE: Synthetic Audio Forensics Evaluation Challenge 
 
 ![](logo.png)
 
