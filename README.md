@@ -18,6 +18,16 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 - Round 1 Submission deadline: May 05, 2025 (the papers accepted in Round 1 will be published in the proceedings for IH&MMSEC 2025)
 - Round 2 Submission deadline: June 02, 2025 (competition will close after Round 2)
 
+## Tasks  
+
+The competition will consist of three detection tasks. For each task, the object is to detect if an audio file contains machine generated speech. Not all tasks will be open at the same time.  
+- Practice (✅ Open): A practice task to troubleshoot model submission.  
+        https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
+- Task 1 (❌ Closed): Detection of Raw Generated Audio. Audio files are unmodified from the original output from the models or the pristine sources.
+        https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1 
+- Task 2 (❌ Closed): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates.
+- Task 3 (❌ Closed): Bonus Task (Details TBD)
+
 ## Data
 
 The dataset will consist of human and machine generated speech audio tracks. 
@@ -56,16 +66,6 @@ This is a code based competetion. No data will be released before the competitio
 - Take a look at an example model repo: https://huggingface.co/safe-challenge/safe-example-submission
 - We encourage you to submit to a practice competion: https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
 - It's using this pracice dataset: https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset
-
-## Tasks  
-
-The competition will consist of three detection tasks. For each task, the object is to detect if an audio file contains machine generated speech. Not all tasks will be open at the same time.  
-- Practice (✅ Open): A practice task to troubleshoot model submission.  
-        https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
-- Task 1 (❌ Closed): Detection of Raw Generated Audio. Audio files are unmodified from the original output from the models or the pristine sources.
-        https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1 
-- Task 2 (❌ Closed): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates.
-- Task 3 (❌ Closed): Bonus Task (Details TBD)
 
 ## Evaluation
 
