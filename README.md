@@ -16,12 +16,12 @@
 
 ## 📊 Overview
 
-To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IH&MMSEC2025](https://www.ihmmsec.org/cms/home/index.html) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue. The most promising solutions will be eligible for research grants to further advance their development. 
+To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IH&MMSEC2025](https://www.ihmmsec.org/cms/home/index.html) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue. The best performing teams will have an opportunity to present their work at the IH&MMSEC workshop, as well as be eligible to pitch their efforts for funded grants from the sponsoring organization. 
 
 **All participants are required to register for the competition**
 
-- Sign up here to participate and receive updates: [NEED TO ADD GOOGLE FORMS LINK]().
-- For info please contact: OUR GOOGLE EMAIL
+- Sign up here to participate and receive updates: [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)
+- For info please contact: SafeChallenge2025@gmail.com
 
 ## 📅 Important Dates
 
@@ -75,6 +75,7 @@ Participants will be required to submit their model to be evaluated on the datas
 Once your model is ready, it's time to submit:   
   - Go the task submision space (there is a seperate space for every task)
   - Login with your Huggingface Credentials
+  - Teams consisting of multiple individuals should plan to submit under one Huggingface account to facilitate review and analysis results
   - Enter the name of your model e.g. `safe-challenge/safe-example-submission` and click submit! 🎉
   - Please use the same user name for all your submissions from the same team.
 
@@ -82,7 +83,7 @@ Once your model is ready, it's time to submit:
 
 We provide an example model submission repo and a practice competition for troubleshooting.  
 - Take a look at an example model repo: https://huggingface.co/safe-challenge/safe-example-submission
-- We encourage you to submit to a practice competion: https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
+- We encourage you to submit to a practice competition: https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
 - It's using this pracice dataset: https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset
 
 ## 🔍 Evaluation
@@ -106,10 +107,10 @@ To ensure a fair and rigorous evaluation process for the SAFE: Synthetic Audio F
    - The private leaderboard will be used for the final evaluation and will include non-overlapping data from the public leaderboard.
 
 2. **Submission Limits**:
-   - Participants will be limited to a certain number of submissions per day.
+   - Participants will be limited in submissions per day.
 
 3. **Confidentiality**:
-   - Participants agree not to publicly compare their results with those of other participants until the other participant’s results are published outside of the IHM&MSEC2025 venue.
+   - Participants agree not to publicly compare their results with those of other participants until the other participant’s results are published outside of the IH&MMSEC2025 venue.
    - Participants are free to use and publish their own results independently.
 
 4. **Compliance**:
