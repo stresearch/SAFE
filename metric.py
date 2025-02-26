@@ -1,4 +1,7 @@
-def metric(solution_df,submission_df, mode = "top_level"):
+import pandas as pd
+from huggingface_hub import hf_hub_download
+
+def _metric(solution_df,submission_df, mode = "top_level"):
     """
     This function calculates the accuracy of the generated predictions.
 
@@ -75,4 +78,4 @@ def compute(params):
     
     submission_df = pd.read_csv(submission_file).set_index(params.submission_id_col)
 
-    return metric(solution_df,submission_df)
+    return _metric(solution_df,submission_df)
