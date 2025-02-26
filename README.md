@@ -34,9 +34,9 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 
 The competition will consist of three detection tasks. For each task, the object is to detect if an audio file contains machine generated speech. Not all tasks will be open at the same time.  
 - Practice (✅ Open): A practice task to troubleshoot model submission.  
-        https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
+        [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
 - Task 1 (❌ Closed): Detection of Raw Generated Audio. Audio files are unmodified from the original output from the models or the pristine sources.
-        https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1 
+        [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1)
 - Task 2 (❌ Closed): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates.
 - Task 3 (❌ Closed): Bonus Task (Details TBD)
 
@@ -66,10 +66,10 @@ Participants will be required to submit their model to be evaluated on the datas
   - `time` : inference time for every example in seconds
 - All submissions will be evaluated using the same resources: NVIDIA `T4-medium` GPU instance. It has 8vCPUs, 30GB RAM, 16GB VRAM.
 - All submissions will be evaluated in the same container that supports common ML frameworks and libraries:
-  - Dockerfile: https://github.com/huggingface/competitions/blob/main/Dockerfile
-  - Docker Image: https://hub.docker.com/r/huggingface/competitions/tags
+  - Dockerfile: [https://github.com/huggingface/competitions/blob/main/Dockerfile](https://github.com/huggingface/competitions/blob/main/Dockerfile)
+  - Docker Image: [https://hub.docker.com/r/huggingface/competitions/tags](https://hub.docker.com/r/huggingface/competitions/tags)
   - Requirements File: [requirements.txt](requirements.txt)
-  - If you'd like to add another package to the requirments file create an issue here: https://github.com/stresearch/SAFE
+  - If you'd like to add another package to the requirments file create an issue here: [https://github.com/stresearch/SAFE](https://github.com/stresearch/SAFE)
   - **During evalation, container will not have access to the internet**. Participants should include all other required dependencies in the model repo.
 
 ### 🔘 Submit  
@@ -83,9 +83,9 @@ Once your model is ready, it's time to submit:
 ### 🆘 Helpful Stuff
 
 We provide an example model submission repo and a practice competition for troubleshooting.  
-- Take a look at an example model repo: https://huggingface.co/safe-challenge/safe-example-submission
-- We encourage you to submit to a practice competition: https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice
-- It's using this pracice dataset: https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset
+- Take a look at an example model repo: [https://huggingface.co/safe-challenge/safe-example-submission](https://huggingface.co/safe-challenge/safe-example-submission)
+- We encourage you to submit to a practice competition: [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
+- It's using this pracice dataset: [https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset](https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset)
 
 ## 🔍 Evaluation
 
