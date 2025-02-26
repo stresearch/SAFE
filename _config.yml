@@ -1,3 +1,4 @@
 skin: "default"
+title: SAFE: Synthetic Audio Forensics Evaluation Challenge
 layout:
   width: "full" # Options: "narrow", "wide", "full"
