@@ -1,7 +1,7 @@
-theme: minima
+# theme: minima
 title: "SAFE"
 description: "Synthetic Audio Forensics Evaluation Challenge"
 layout:
   width: "full" # Options: "narrow", "wide", "full"
-minima:
-  skin: auto
+# minima:
+#   skin: auto
