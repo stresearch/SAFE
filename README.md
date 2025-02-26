@@ -1,4 +1,4 @@
-# SAFE: Synthetic Audio Forensics Evaluation Challenge <!-- omit from toc -->
+<!--# SAFE: Synthetic Audio Forensics Evaluation Challenge--> <!-- omit from toc -->
 
 ![](logo.jpg)
 
