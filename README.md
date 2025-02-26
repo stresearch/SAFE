@@ -22,6 +22,7 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 
 - Sign up here to participate and receive updates: [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)
 - For info please contact: SafeChallenge2025@gmail.com
+- You can also create an issue: [https://github.com/stresearch/SAFE](https://github.com/stresearch/SAFE)
 
 ## 📅 Important Dates
 
