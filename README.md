@@ -63,6 +63,7 @@ Participants will be required to submit their model to be evaluated on the datas
   - `id` : id of the example, strig
   - `pred` : binary decision, string, "generated" or "pristine"
   - `score`: decision score such as log likelihood score. Postive scores correspond to generated and negative to pristine. (This is optional and not used in evaluation but will help with analysis later)  
+  - `time` : inference time for every example in seconds
 - All submissions will be evaluated using the same resources: NVIDIA `T4-medium` GPU instance. It has 8vCPUs, 30GB RAM, 16GB VRAM.
 - All submissions will be evaluated in the same container that supports common ML frameworks and libraries:
   - Dockerfile: https://github.com/huggingface/competitions/blob/main/Dockerfile
