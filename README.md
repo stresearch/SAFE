@@ -45,7 +45,7 @@ The competition will consist of three detection tasks. For each task, the object
 
 The dataset will consist of human and machine generated speech audio tracks. 
 
-- Human generated speech will be sourced from multiple sources including but not limited to high quality in-studio and lower quality in-the-wild online recordings.
+- Human generated speech will be sourced from multiple sources and in multiple languages including but not limited to high quality in-studio and lower quality in-the-wild online recordings.
 - Machine generated speech will be constructed using several SOTA TTS (text-to-speech) models. The models will be either open-source or closed-source.
 - The audio files will vary in length but will be no longer than 60 seconds.
 - Compression formats will also vary. (See practice submission and dataset on how to load the input data)
@@ -92,7 +92,7 @@ We provide an example model submission repo and a practice competition for troub
 
 All submissions will be evalulated using balanced accuracy. Balanced accuracy is defined as an average of true positive rate and true negative rate. 
 
-The competition page will maintain a public leaderboard and a private leaderboard. The data will be devided along the sources such that public and private leaderboards will be non-overlapping. Public leaderboard will also show error rates for every source, However, the specific source name will be anonymized. See the following table as an example.
+The competition page will maintain a public leaderboard and a private leaderboard. The data will be devided along the sources such that public leaderboard will be a subset of the private leaderboard. Public leaderboard will also show error rates for every source, However, the specific source name will be anonymized. For example, public leaderboard will show scores for 4 sources while the private leaderboard will be score on additional 4 sources for 8 sources total. See the following table as an example.
 
 <img width="1572" alt="image" src="https://github.com/user-attachments/assets/ec4339ef-589b-4f76-ae2f-a03a6ed6d7d3" />
 
