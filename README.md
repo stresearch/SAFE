@@ -20,7 +20,7 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 
 ## 🏆 Prize
 
-The most promising solutions may be eligible for research grants to further advance their development. A small travel stipend will be available to the highest-performing teams to support attendance at the IH&MMSEC workshop, where they can present their technical approach and results.
+The most promising solutions may be eligible for research grants to further advance their development. A travel stipend will be available to the highest-performing teams to support attendance at the IH&MMSEC workshop, where they can present their technical approach and results.
 
 **All participants are required to register for the competition**
 
