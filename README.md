@@ -16,7 +16,11 @@
 
 ## 📊 Overview
 
-To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IH&MMSEC2025](https://www.ihmmsec.org/cms/home/index.html) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue. The most promising solutions may be eligible for research grants to further advance their development. A small travel stipend may be available to the highest-performing teams to support attendance at the IH&MMSEC workshop, where they can present their technical approach and results.
+To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IH&MMSEC2025](https://www.ihmmsec.org/cms/home/index.html) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue. 
+
+## 🏆 Prize
+
+The most promising solutions may be eligible for research grants to further advance their development. A small travel stipend will be available to the highest-performing teams to support attendance at the IH&MMSEC workshop, where they can present their technical approach and results.
 
 **All participants are required to register for the competition**
 
