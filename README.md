@@ -76,6 +76,7 @@ Participants will be required to submit their model to be evaluated on the datas
   - Requirements File: [requirements.txt](requirements.txt)
   - If you'd like to add another package to the requirments file create an issue here: [https://github.com/stresearch/SAFE](https://github.com/stresearch/SAFE)
   - **During evalation, container will not have access to the internet**. Participants should include all other required dependencies in the model repo.
+  - **💡 Remember: you can add anything to your model repo** like models, python packages, etc.
 
 ### 🔘 Submit  
 Once your model is ready, it's time to submit:   
