@@ -20,8 +20,10 @@ There are 4 steps:
 - base image is pulled and common requirements are installed
 - dataset is downloaded to the container 
 - your model is downloaed to the container
-- `scipt.py` is run (which should should save out `submission.csv`)
+- `script.py` is run (which should should save out `submission.csv`)
 
 
 You can build: `docker build . -t safe-test`  
 Then run: `docker run --rm --gpus all safe-test`   
+
+You can map volumes to docker if you want to see the results.
