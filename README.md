@@ -3,6 +3,7 @@
 ![](logo.jpg)
 
 - [📊 Overview](#-overview)
+- [🏆 Prize](#-prize)
 - [📅 Important Dates](#-important-dates)
 - [📝 Tasks](#-tasks)
 - [📈 Data](#-data)
@@ -88,10 +89,11 @@ Once your model is ready, it's time to submit:
 
 ### 🆘 Helpful Stuff
 
-We provide an example model submission repo and a practice competition for troubleshooting.  
+We provide an example model submission repo and a practice competition for troubleshooting.
 - Take a look at an example model repo: [https://huggingface.co/safe-challenge/safe-example-submission](https://huggingface.co/safe-challenge/safe-example-submission)
 - We encourage you to submit to a practice competition: [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
 - It's using this pracice dataset: [https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset](https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset)
+- 💡 To reproduce all the steps in the submission locally, take a look at the debugging example: [debug example](debug_example.md)
 
 ## 🔍 Evaluation
 
