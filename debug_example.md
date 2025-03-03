@@ -20,7 +20,7 @@ There are 4 steps:
 - base image is pulled and common requirements are installed
 - dataset is downloaded to the container 
 - your model is downloaed to the container
-- `script.py` is run (which should should save out `submission.csv`)
+- `script.py` is run (which should save out `submission.csv`)
 
 
 You can build: `docker build . -t safe-test`  
