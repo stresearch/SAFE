@@ -43,7 +43,7 @@ The most promising solutions may be eligible for research grants to further adva
 The competition will consist of three detection tasks. For each task, the object is to detect if an audio file contains machine generated speech. Not all tasks will be open at the same time.  
 - Practice (✅ Open): A practice task to troubleshoot model submission.  
         [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
-- Task 1 (❌ Closed): Detection of Raw Generated Audio. Audio files are unmodified from the original output from the models or the pristine sources.
+- Task 1 (✅ Open): Detection of Generated Audio. Audio files are unmodified from the original output from the models or the pristine sources.
         [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1)
 - Task 2 (❌ Closed): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates.
 - Task 3 (❌ Closed): Bonus Task (Details TBD)
