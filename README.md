@@ -94,6 +94,7 @@ We provide an example model submission repo and a practice competition for troub
 - We encourage you to submit to a practice competition: [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
 - It's using this pracice dataset: [https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset](https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset)
 - 💡 To reproduce all the steps in the submission locally, take a look at the debugging example: [debug example](debug_example.md)
+- You won't be able to see any detailed error if your submission fails since it's run in a private space. You can open a ticket or email us with your submission id, and we can look up the logs. The easiest way is trouble shoot locally using the above example.
 
 ## 🔍 Evaluation
 
