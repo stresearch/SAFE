@@ -1,7 +1,7 @@
 import pandas as pd
 from huggingface_hub import hf_hub_download
 
-def _metric(solution_df,submission_df, mode = "top_level"):
+def _metric(solution_df,submission_df, mode = "top_level", admin = False):
     """
     This function calculates the accuracy of the generated predictions.
 
@@ -21,39 +21,81 @@ def _metric(solution_df,submission_df, mode = "top_level"):
 
 
     solution_df["submission_pred"] = submission_df["pred"]
-    cols = ["split","pred","source"]
+   
+    if admin:
+        source_col = "source_og"
+    else:
+        source_col = "source"
+
+    
+    cols = ["split","pred", source_col]
 
 
     solution_df["correct"] = solution_df["pred"] == solution_df["submission_pred"]
     accuracy = solution_df.groupby(cols)["correct"].mean().to_frame("accuracy").reset_index()
-    accuracy["score_name"] = accuracy["pred"] +"_"+ accuracy["source"]
+    accuracy["score_name"] = accuracy["pred"] +"_"+ accuracy[source_col]
     
     evaluation = {}
     
-    for split,temp in accuracy.groupby("split"):
-        scores_by_source = temp.set_index("score_name")["accuracy"].sort_index()
-        scores_by_source["generated_accuracy"] = temp.query("pred=='generated'")["accuracy"].mean()
-        scores_by_source["pristine_accuracy"] = temp.query("pred=='pristine'")["accuracy"].mean()
-        scores_by_source["balanced_accuracy"] = (scores_by_source["generated_accuracy"] + scores_by_source["pristine_accuracy"])/2.
-        if mode == "top_level":
-            scores_to_save = ["generated_accuracy", "pristine_accuracy", "balanced_accuracy"]
-            evaluation[f"{split}_score"] = scores_by_source.loc[scores_to_save].to_dict()
-        else:
-            evaluation[f"{split}_score"] = scores_by_source.to_dict()
+    split = "public"
+    
+    temp = accuracy.query(f"split=='{split}'")
+    scores_by_source = temp.set_index("score_name")["accuracy"].sort_index()
+    scores_by_source["generated_accuracy"] = temp.query("pred=='generated'")["accuracy"].mean()
+    scores_by_source["pristine_accuracy"] = temp.query("pred=='pristine'")["accuracy"].mean()
+    scores_by_source["balanced_accuracy"] = (scores_by_source["generated_accuracy"] + scores_by_source["pristine_accuracy"])/2.
+    
+    
+    if mode == "top_level":
+        scores_to_save = ["generated_accuracy", "pristine_accuracy", "balanced_accuracy"]
+        evaluation[f"{split}_score"] = scores_by_source.loc[scores_to_save].to_dict()
+    else:
+        evaluation[f"{split}_score"] = scores_by_source.to_dict()
+
+    split = "private"
+    # private has everything
+
+    temp = accuracy
+    scores_by_source = temp.set_index("score_name")["accuracy"].sort_index()
+    scores_by_source["generated_accuracy"] = temp.query("pred=='generated'")["accuracy"].mean()
+    scores_by_source["pristine_accuracy"] = temp.query("pred=='pristine'")["accuracy"].mean()
+    scores_by_source["balanced_accuracy"] = (scores_by_source["generated_accuracy"] + scores_by_source["pristine_accuracy"])/2.
+    
+    if mode == "top_level":
+        scores_to_save = ["generated_accuracy", "pristine_accuracy", "balanced_accuracy"]
+        evaluation[f"{split}_score"] = scores_by_source.loc[scores_to_save].to_dict()
+    else:
+        evaluation[f"{split}_score"] = scores_by_source.to_dict()
+    
 
     if "time" in submission_df.columns:
         solution_df["submission_time"] = submission_df["time"]
-        for split, temp in solution_df.groupby("split"):
-            evaluation[f"{split}_score"]["total_time"] = float(temp["submission_time"].sum())
+        
+        split = "public"
+        evaluation[f"{split}_score"]["total_time"] = float(solution_df.query(f"split=='{split}'")["submission_time"].sum())
 
-    # evaluation = {
-    #     "public_score": {
-    #         "metric1": public_score,
-    #     },
-    #     "private_score": {
-    #         "metric1": private_score,
-    #     }
-    # }
+        split = "private"
+        evaluation[f"{split}_score"]["total_time"] = float(solution_df["submission_time"].sum())
+    else:
+        for split in ["public","private"]:
+            evaluation[f"{split}_score"]["total_time"] = -1
+
+
+    if "score" in submission_df.columns:
+        solution_df["submission_score"] = submission_df["score"]
+    
+        split = "public"
+        evaluation[f"{split}_score"]["fail_rate"] = float(solution_df.query(f"split=='{split}'")["submission_score"].isna().mean())
+
+        split = "private"
+        evaluation[f"{split}_score"]["fail_rate"] = float(solution_df["submission_score"].isna().mean())
+
+    else:
+        for split in ["public","private"]:
+            evaluation[f"{split}_score"]["fail_rate"] = -1
+
+
+
     return evaluation
 
 
