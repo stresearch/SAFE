@@ -68,8 +68,8 @@ This is a script based competetion. No data will be released before the competit
 ### 📂 Create Model Repo  
 Participants will be required to submit their model to be evaluated on the dataset by creating a [huggingface](https://huggingface.co/new) model repository.  
 - **The model that you submit will remain private**. No one inlcuding the challenge organizers will have access to the model repo unless you decide to make the repo public.
-- The model will be expected to read in the dataset and output file containing a **detection score and binary decision** for every input example.
-- The dataset will be downloaded to `/tmp/data` inside the container during evalation run.
+- The model will be expected to read in the dataset and output file containing a **detection score, binary decision and inference time** for every input example.
+- The dataset will be downloaded to `/tmp/data` inside the container during the evaluation run.
 - The only requirement is to have a `script.py` in the top level of the repo that saves a `submission.csv` file with the following columns:
   - `id` : id of the example, strig
   - `pred` : binary decision, string, "generated" or "pristine"
