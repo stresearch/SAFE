@@ -8,6 +8,7 @@ See example [Dockerfile](Dockerfile):
 FROM huggingface/competitions:latest
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+ENV HF_TOKEN=mytoken
 ENV SAFE_DATASET_REPO=safe-challenge/safe-challenge-practice-dataset
 RUN huggingface-cli download ${SAFE_DATASET_REPO} --local-dir /tmp/data --repo-type dataset
 ENV MODEL_REPO=safe-challenge/safe-example-submission
@@ -22,6 +23,7 @@ There are 4 steps:
 - your model is downloaed to the container
 - `script.py` is run (which should save out `submission.csv`)
 
+To test your own private repo, you would need to set your huggingface token as an environment variable somewhere. In the Dockerfile: `ENV HF_TOKEN=mytoken`
 
 You can build: `docker build . -t safe-test`  
 Then run: `docker run --rm --gpus all safe-test`   
