@@ -69,7 +69,7 @@ This is a script based competetion. No data will be released before the competit
 Participants will be required to submit their model to be evaluated on the dataset by creating a [huggingface](https://huggingface.co/new) model repository.  
 - **The model that you submit will remain private**. No one inlcuding the challenge organizers will have access to the model repo unless you decide to make the repo public.
 - The model will be expected to read in the dataset and output file containing a **detection score, binary decision and inference time** for every input example.
-- The dataset will be downloaded to `/tmp/data` inside the container during the evaluation run.
+- The dataset will be downloaded to `/tmp/data` inside the container during the evaluation run. See example model on how to load it.
 - The only requirement is to have a `script.py` in the top level of the repo that saves a `submission.csv` file with the following columns:
   - `id` : id of the example, strig
   - `pred` : binary decision, string, "generated" or "pristine"
@@ -99,7 +99,7 @@ We provide an example model submission repo and a practice competition for troub
 - We encourage you to submit to a practice competition: [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
 - It's using this pracice dataset: [https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset](https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset)
 - 💡 To reproduce all the steps in the submission locally, take a look at the debugging example: [debug example](debug_example.md)
-- You won't be able to see any detailed error if your submission fails since it's run in a private space. You can open a ticket or email us with your submission id, and we can look up the logs. The easiest way is trouble shoot locally using the above example.
+- You won't be able to see any detailed error if your submission fails since it's run in a private space. You can open a ticket or email us with your submission id, and we can look up the logs. The easiest way is to trouble shoot locally using the above example.
 
 ## 🔍 Evaluation
 
