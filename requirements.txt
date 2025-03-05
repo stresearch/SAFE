@@ -10,3 +10,5 @@ scipy==1.14.1
 torch==2.4.0
 soundfile==0.13.1
 librosa==0.10.2.post1
+omegaconf==2.3.0
+hydra-core==1.3.2
