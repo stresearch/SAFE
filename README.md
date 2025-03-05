@@ -30,7 +30,7 @@ The most promising solutions may be eligible for research grants to further adva
 - Sign up here to participate and receive updates: [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)
 - For info please contact: SafeChallenge2025@gmail.com
 - You can also create an issue: [https://github.com/stresearch/SAFE](https://github.com/stresearch/SAFE)
-- See instructions on how to submit and [🆘 Helpful Stuff](#-helpful-stuff), [debug example](debug_example.md) and open issues
+- See instructions on how to submit and [🆘 Helpful Stuff](#-helpful-stuff), [debug example](debug_example.md), open issues for reference
 
 ## 📅 Important Dates
 
