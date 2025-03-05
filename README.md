@@ -3,6 +3,7 @@
 ![](logo.jpg)
 
 - [📊 Overview](#-overview)
+- [🥇 Leaderboard](#-leaderboard)
 - [🏆 Prize](#-prize)
 - [📅 Important Dates](#-important-dates)
 - [📝 Tasks](#-tasks)
@@ -70,7 +71,7 @@ Participants will be required to submit their model to be evaluated on the datas
 - **The model that you submit will remain private**. No one inlcuding the challenge organizers will have access to the model repo unless you decide to make the repo public.
 - The model will be expected to read in the dataset and output file containing a **detection score, binary decision and inference time** for every input example.
 - The dataset will be downloaded to `/tmp/data` inside the container during the evaluation run. See example model on how to load it.
-- The only requirement is to have a `script.py` in the top level of the repo that saves a `submission.csv` file with the following columns:
+- The only requirement is to have a `script.py` in the top level of the repo that saves a `submission.csv` file with the following columns. See [sample practice submission file](sample_practice_submission.csv).
   - `id` : id of the example, strig
   - `pred` : binary decision, string, "generated" or "pristine"
   - `score`: decision score such as log likelihood score. Postive scores correspond to generated and negative to pristine. (This is optional and not used in evaluation but will help with analysis later)  
