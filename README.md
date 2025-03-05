@@ -66,7 +66,7 @@ The dataset will consist of human and machine generated speech audio tracks.
 This is a script based competetion. No data will be released before the competition. A subset of the data may be released after the competition. We will be using [hugginface competions platform](https://github.com/huggingface/competitions).
 
 ### 📂 Create Model Repo  
-Participants will be required to submit their model to be evaluated on the dataset by creating a [huggingface](https://huggingface.co/new) model repository.  
+Participants will be required to submit their model to be evaluated on the dataset by creating a [huggingface](https://huggingface.co/new) model repository. Please use [the example model repo](https://huggingface.co/safe-challenge/safe-example-submission) as a template.
 - **The model that you submit will remain private**. No one inlcuding the challenge organizers will have access to the model repo unless you decide to make the repo public.
 - The model will be expected to read in the dataset and output file containing a **detection score, binary decision and inference time** for every input example.
 - The dataset will be downloaded to `/tmp/data` inside the container during the evaluation run. See example model on how to load it.
