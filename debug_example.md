@@ -22,7 +22,7 @@ CMD python script.py
 There are 4 steps:
 - base image is pulled and common requirements are installed
 - dataset is downloaded to the container 
-- your model is downloaed to the container
+- your model is downloaded to the container
 - `script.py` is run (which should save out `submission.csv`)
 
 To test your own private repo, you would need to set your huggingface token as an environment variable somewhere. In the Dockerfile: `ENV HF_TOKEN=mytoken`
