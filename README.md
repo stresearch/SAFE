@@ -2,6 +2,8 @@
 
 ![](logo.jpg)
 
+**👉 All participants are required to register for the competition by filling out [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)**
+
 - [📊 Overview](#-overview)
 - [🥇 Leaderboard](#-leaderboard)
 - [🏆 Prize](#-prize)
@@ -19,6 +21,8 @@
 ## 📊 Overview
 
 To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IH&MMSEC2025](https://www.ihmmsec.org) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue.  
+
+Sign up here to participate and receive updates: Google Form
 
 ## 🥇 [Detailed Leaderboard](leaderboard_public_20250306.png)
 *Updated 2025-03-06*
