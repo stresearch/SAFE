@@ -7,7 +7,7 @@
 - [📊 Overview](#-overview)
 - [🥇 Leaderboard](#-leaderboard)
 - [🏆 Prize](#-prize)
-- [📅 Important Dates](#-important-dates)
+- [📜 Paper Submission](#-paper-submission)
 - [📝 Tasks](#-tasks)
 - [📈 Data](#-data)
 - [🤖 Model Submission](#-model-submission)
@@ -39,7 +39,9 @@ The most promising solutions may be eligible for research grants to further adva
 - You can also create an issue: [https://github.com/stresearch/SAFE](https://github.com/stresearch/SAFE)
 - See instructions on how to submit and [🆘 Helpful Stuff](#-helpful-stuff), [debug example](debug_example.md), open issues for reference
 
-## 📅 Important Dates
+## 📜 Paper Submission
+
+All papers for this special session undergo the regular review procedure and must be submitted through the workshop paper submission system following the link given on home page: [https://www.ihmmsec.org](https://www.ihmmsec.org). For this special session in particular, authors must select the track "COMPETITION TRACK" on the submission website during the submission.
 
 - Practice Submission Opens: February 26, 2025
 - Competition Opens: March 3, 2025
