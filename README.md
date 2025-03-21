@@ -2,7 +2,7 @@
 
 ![](logo.jpg)
 
-**👉 All participants are required to register for the competition by filling out [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)**
+**👉 All participants are required to register for the competition by filling out this [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)**
 
 - [📊 Overview](#-overview)
 - [🥇 Leaderboard](#-leaderboard)
