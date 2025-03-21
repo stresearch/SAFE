@@ -48,6 +48,8 @@ All papers for this special session undergo the regular review procedure and mus
 - Round 1 Submission deadline: May 05, 2025 (the papers accepted in Round 1 will be published in the proceedings for IH&MMSEC 2025)
 - Round 2 Submission deadline: June 02, 2025 (competition will close after Round 2)
 
+For any question regarding paper submission, please contact chairs: acm.ihmmsec25@gmail.com.
+
 ## 📝 Tasks  
 
 The competition will consist of three detection tasks. For each task, the object is to detect if an audio file contains machine generated speech. Not all tasks will be open at the same time. 
