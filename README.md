@@ -24,9 +24,9 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 
 Sign up here to participate and receive updates: Google Form
 
-## 🥇 [Detailed Leaderboard](leaderboard_public_20250306.png)
-*Updated 2025-03-06*
-[![leaderboard](leaderboard_public_20250306.png)](leaderboard_public_20250306.png)
+## 🥇 [Detailed Leaderboard](leaderboard_latest.png)
+*Updated 2025-03-24*
+[![leaderboard](leaderboard_latest.png)](leaderboard_latest.png)
 
 ## 🏆 Prize
 
