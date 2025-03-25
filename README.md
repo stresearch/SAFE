@@ -6,6 +6,11 @@
 
 [📊 Overview](#-overview) • [🥇 Detailed Leaderboard](#-detailed-leaderboard) • [🏆 Prize](#-prize) • [📜 Paper Submission and Dates](#-paper-submission-and-dates) • [📝 Tasks](#-tasks) • [📈 Data](#-data) • [🤖 Model Submission](#-model-submission) • [📂 Create Model Repo](#-create-model-repo) • [🔘 Submit](#-submit) • [🆘 Helpful Stuff](#-helpful-stuff) • [🔍 Evaluation](#-evaluation) • [⚖️ Rules](#️-rules)
 
+## 📣 Updates
+
+2025-03-25
+- Added two baselines to the leaderboard
+- Added a link to a [discord server](https://discord.gg/bxNsutKmTH) for additional help/support/discussion/etc.
 
 ## 📊 Overview
 
@@ -26,7 +31,7 @@ The most promising solutions may be eligible for research grants to further adva
 - Sign up here to participate and receive updates: [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)
 - For info please contact: SafeChallenge2025@gmail.com
 - You can also create an issue: [https://github.com/stresearch/SAFE](https://github.com/stresearch/SAFE)
-- See instructions on how to submit and [🆘 Helpful Stuff](#-helpful-stuff), [debug example](debug_example.md), open issues for reference
+- See instructions on how to submit and [🆘 Helpful Stuff](#-helpful-stuff), [debug example](debug_example.md), open issues for reference or join our [discord server](https://discord.gg/bxNsutKmTH)
 
 ## 📜 Paper Submission and Dates
 
