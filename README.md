@@ -1,5 +1,7 @@
 # SAFE: Synthetic Audio Forensics Evaluation Challenge    <!-- omit from toc -->
 
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20-Hugging%20Face-yellow)](https://huggingface.co/safe-challenge) [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/bxNsutKmTH)
+
 ![](logo.jpg)
 
 **👉 All participants are required to register for the competition by filling out this [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)**
