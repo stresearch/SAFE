@@ -12,7 +12,7 @@
 
 2025-03-25
 - Added two baselines to the leaderboard
-- Added a link to a [discord server](https://discord.gg/bxNsutKmTH) for additional help/support/discussion/etc.
+- Added [discord server](https://discord.gg/bxNsutKmTH) for additional help/support/discussion/etc.
 
 ## 📊 Overview
 
