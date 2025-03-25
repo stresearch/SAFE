@@ -4,18 +4,7 @@
 
 **👉 All participants are required to register for the competition by filling out this [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)**
 
-- [📊 Overview](#-overview)
-- [🥇 Leaderboard](#-leaderboard)
-- [🏆 Prize](#-prize)
-- [📜 Paper Submission and Dates](#-paper-submission-and-dates)
-- [📝 Tasks](#-tasks)
-- [📈 Data](#-data)
-- [🤖 Model Submission](#-model-submission)
-  - [📂 Create Model Repo](#-create-model-repo)
-  - [🔘 Submit](#-submit)
-  - [🆘 Helpful Stuff](#-helpful-stuff)
-- [🔍 Evaluation](#-evaluation)
-- [⚖️ Rules](#️-rules)
+[📊 Overview](#-overview) • [🥇 Detailed Leaderboard](#-detailed-leaderboard) • [🏆 Prize](#-prize) • [📜 Paper Submission and Dates](#-paper-submission-and-dates) • [📝 Tasks](#-tasks) • [📈 Data](#-data) • [🤖 Model Submission](#-model-submission) • [📂 Create Model Repo](#-create-model-repo) • [🔘 Submit](#-submit) • [🆘 Helpful Stuff](#-helpful-stuff) • [🔍 Evaluation](#-evaluation) • [⚖️ Rules](#️-rules)
 
 
 ## 📊 Overview
@@ -24,7 +13,7 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 
 Sign up here to participate and receive updates: [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)
 
-## 🥇 [Detailed Leaderboard](leaderboard_latest.png)
+## 🥇 Detailed Leaderboard
 *Updated 2025-03-25*
 [![leaderboard](leaderboard_latest.png)](leaderboard_latest.png)
 
