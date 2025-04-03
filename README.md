@@ -14,6 +14,10 @@
 - Added two baselines to the leaderboard
 - Added [discord server](https://discord.gg/bxNsutKmTH) for additional help/support/discussion/etc.
 
+2025-04-03  
+- Task 2 is now open. Detection of Processed Audio. [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2)
+- 🔥 [Example on including a custom environment in your model repo](https://huggingface.co/safe-challenge/safe-example-submission-custom-env)
+
 ## 📊 Overview
 
 To advance the state of the art in audio forensics, we are launching a funded evaluation challenge at [IH&MMSEC2025](https://www.ihmmsec.org) to drive innovation in detecting and attributing synthetic and manipulated audio artifacts. This challenge will focus on several critical aspects, including generalizability across diverse audio sources, robustness against evolving synthesis techniques, and computational efficiency to enable real-world applications. The rapid advancements in audio synthesis, fueled by the increasing availability of new generators and techniques, underscore the urgent need for effective solutions to authenticate audio content and combat emerging threats. Sponsored by the ULRI Digital Safety Research Institute, this initiative aims to mobilize the research community to address this pressing issue.  
@@ -22,7 +26,7 @@ Sign up here to participate and receive updates: [Google Form](https://forms.gle
 
 ## 🥇 Detailed Leaderboard
 *Updated 2025-04-01*
-[![leaderboard](leaderboard_latest.png)](leaderboard_latest.png)
+[![leaderboard task 1](leaderboard_latest.png)](leaderboard_latest.png)
 
 ## 🏆 Prize
 
@@ -53,7 +57,8 @@ The competition will consist of three detection tasks. For each task, the object
         [https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice](https://huggingface.co/spaces/safe-challenge/SAFEChallengePractice)
 - Task 1 (✅ Open): Detection of Generated Audio. Audio files are unmodified from the original output from the models or the pristine sources.
         [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1)
-- Task 2 (❌ Closed): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates.
+- Task 2 (✅ Open): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates. Only the geneated files are augmented. The pristines remain the same.
+        [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2)
 - Task 3 (❌ Closed): Bonus Task (Details TBD)
 
 
@@ -107,6 +112,7 @@ We provide an example model submission repo and a practice competition for troub
 - It's using this pracice dataset: [https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset](https://huggingface.co/datasets/safe-challenge/safe-challenge-practice-dataset)
 - 💡 To reproduce all the steps in the submission locally, take a look at the debugging example: [debug example](debug_example.md)
 - You won't be able to see any detailed error if your submission fails since it's run in a private space. *You can open a ticket or email us with your submission id, and we can look up the logs.* The easiest way is to trouble shoot locally using the above example.
+- *🔥New* [Example on including a custom environment in your model repo](https://huggingface.co/safe-challenge/safe-example-submission-custom-env)
 
 ## 🔍 Evaluation
 
