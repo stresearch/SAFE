@@ -25,14 +25,14 @@ To advance the state of the art in audio forensics, we are launching a funded ev
 Sign up here to participate and receive updates: [Google Form](https://forms.gle/5J8Yuh41Lv8GAF7w8)
 
 ## 🥇 Detailed Leaderboard
-*Updated 2025-04-01* 
 <!--  [![leaderboard](leaderboard_latest.png)](leaderboard_latest.png) -->
-<iframe
-	src="https://safe-challenge-leaderboard-public.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 80%;">
+    <iframe src="https://safe-challenge-leaderboard-public.hf.space" 
+        style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;" 
+        frameborder="0">
+    </iframe>
+</div>
 
 
 ## 🏆 Prize
