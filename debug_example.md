@@ -42,6 +42,8 @@ There are 4 steps:
 - your model is downloaded to the container
 - `script.py` is run (which should save out `submission.csv`)
 
+> all the files are in the [main repo](https://github.com/stresearch/SAFE/)
+
 To test your own private repo, you would need to set your huggingface token as an environment variable somewhere. In the Dockerfile: `export HF_TOKEN=mytoken`
 
 You can build: `docker build . -t safe-test`  
