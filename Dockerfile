@@ -1,5 +1,5 @@
 FROM huggingface/competitions:latest
-WORKDIR /tmp
+WORKDIR /app/safe
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY * .
