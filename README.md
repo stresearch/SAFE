@@ -21,6 +21,9 @@
 2025-04-04
 - New detailed public [leaderboard space](https://huggingface.co/spaces/safe-challenge/leaderboard-public)
 
+2025-04-07
+- Updated [debug example](debug_example.md) to turn off network access when running model to better reproduce submissions on HF
+
 
 ## 📊 Overview
 
