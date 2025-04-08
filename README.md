@@ -24,6 +24,9 @@
 2025-04-07
 - Updated [debug example](debug_example.md) to turn off network access when running model to better reproduce submissions on HF
 
+2025-04-08
+- Provided updated information on Round 1 and Round 2 paper and poster submission processes. 
+
 
 ## 📊 Overview
 
@@ -59,8 +62,8 @@ All papers for this special session undergo the regular review procedure and mus
 
 - ~~Practice Submission Opens: February 26, 2025~~
 - ~~Competition Opens: March 3, 2025~~
-- Round 1 Submission deadline: May 05, 2025 (the papers accepted in Round 1 will be published in the proceedings for IH&MMSEC 2025)
-- Round 2 Submission deadline: June 02, 2025 (competition will close after Round 2)
+- Round 1 Submission deadline: May 05, 2025 (the papers accepted in Round 1 will be published in the proceedings for IH&MMSEC 2025 and will be presented during the oral session of the conference)
+- Round 2 Submission deadline: June 02, 2025 (performers participating in Round 1 whose algorithms score well in the system will be invited to present a poster at the IH&MMSEC workshop)
 
 For any question regarding paper submission, please contact chairs: acm.ihmmsec25@gmail.com.
 
