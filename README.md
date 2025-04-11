@@ -1,5 +1,3 @@
-**❗Some are seeing a message when submitting: `Hugging Face Hub is unreachable, please try again later`. We are working to resolve this issue. Please hold off from submitting anything new. We will let you know when it's working again.**
-
 # SAFE: Synthetic Audio Forensics Evaluation Challenge    <!-- omit from toc -->
 
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20-Hugging%20Face-yellow)](https://huggingface.co/safe-challenge) [![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white)](https://discord.gg/bxNsutKmTH)
