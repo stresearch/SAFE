@@ -25,7 +25,10 @@
 - Updated [debug example](debug_example.md) to turn off network access when running model to better reproduce submissions on HF
 
 2025-04-08
-- Provided updated information on Round 1 and Round 2 paper and poster submission processes. 
+- Provided updated information on Round 1 and Round 2 paper and poster submission processes.
+
+2025-04-12
+- Upgraded rate limits to resolve `Hugging Face Hub is unreachable, please try again later` error
 
 
 ## 📊 Overview
