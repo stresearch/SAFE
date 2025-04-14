@@ -30,6 +30,9 @@
 2025-04-12
 - Upgraded rate limits to resolve `Hugging Face Hub is unreachable, please try again later` error
 
+2025-04-14
+- Task 3 is not open Detection of Laundered Audio. [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3)
+
 
 ## 📊 Overview
 
@@ -79,7 +82,9 @@ The competition will consist of three detection tasks. For each task, the object
         [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask1)
 - Task 2 (✅ Open): Detection of Processed Audio. Audio files will be compressed with several common audio compression codecs. The audio files will also be resampled according to several sampling rates. Only the geneated files are augmented. The pristines remain the same.
         [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2)
-- Task 3 (❌ Closed): Bonus Task (Details TBD)
+- Task 3 (✅ Open): Detection of Laundered Audio. Audio files will be laundered to bypass detection. Only the geneated files are laundered. The pristines remain the same.
+ 	[https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3)
+
 
 
 ## 📈 Data
