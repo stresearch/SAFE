@@ -10,29 +10,31 @@
 
 ## 📣 Updates
 
-2025-03-25
-- Added two baselines to the leaderboard
-- Added [discord server](https://discord.gg/bxNsutKmTH) for additional help/support/discussion/etc.
+2025-04-23
+- Added an accuracy heatmap on generated data by augmentation method for Task 2 and Task 3 in the heatmaps section of [Public Leaderboard](https://safe-challenge-leaderboard-public.hf.space). Note the methods are annonimized and are different for task 2 and 3.
+
+2025-04-14
+- Task 3 is not open Detection of Laundered Audio. [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3)
+
+2025-04-12
+- Upgraded rate limits to resolve `Hugging Face Hub is unreachable, please try again later` error
+
+2025-04-08
+- Provided updated information on Round 1 and Round 2 paper and poster submission processes.
+
+2025-04-07
+- Updated [debug example](debug_example.md) to turn off network access when running model to better reproduce submissions on HF
+
+2025-04-04
+- New detailed public [leaderboard space](https://huggingface.co/spaces/safe-challenge/leaderboard-public)
 
 2025-04-03  
 - Task 2 is now open. Detection of Processed Audio. [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask2)
 - 🔥 [Example on including a custom environment in your model repo](https://huggingface.co/safe-challenge/safe-example-submission-custom-env)
 
-2025-04-04
-- New detailed public [leaderboard space](https://huggingface.co/spaces/safe-challenge/leaderboard-public)
-
-2025-04-07
-- Updated [debug example](debug_example.md) to turn off network access when running model to better reproduce submissions on HF
-
-2025-04-08
-- Provided updated information on Round 1 and Round 2 paper and poster submission processes.
-
-2025-04-12
-- Upgraded rate limits to resolve `Hugging Face Hub is unreachable, please try again later` error
-
-2025-04-14
-- Task 3 is not open Detection of Laundered Audio. [https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3](https://huggingface.co/spaces/safe-challenge/SAFEChallengeTask3)
-
+2025-03-25
+- Added two baselines to the leaderboard
+- Added [discord server](https://discord.gg/bxNsutKmTH) for additional help/support/discussion/etc.
 
 ## 📊 Overview
 
